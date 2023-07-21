@@ -5,5 +5,7 @@
 @endsection
 
 @section('content')
-
+<article class="article article_bg">
+    <h2>We give you value for money</h2>
+</article>
 @endsection

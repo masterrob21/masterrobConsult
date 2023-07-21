@@ -16,6 +16,16 @@
     height: 100%;
 }
 
+.article {
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.article_bg {
+    background-color: turquoise;
+}
+
 #footer {
     padding: 20px;
     background-color: black;
