@@ -8,12 +8,16 @@
     font-weight: 600;
 }
 
+.bg_banner {
+    width: 100%;
+}
+
 #container {
-    height: 100vh;
+    height: 100%;
 }
 
 #footer {
-    padding: 15px 20px;
+    padding: 20px;
     background-color: black;
     text-align: center;
     color: white;
