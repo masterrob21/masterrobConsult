@@ -1,0 +1,21 @@
+.comp_logo {
+    height: 40px;
+    width: 40px;
+}
+
+.comp_name {
+    color: rgb(8, 8, 181);
+    font-weight: 600;
+}
+
+#container {
+    height: 100vh;
+}
+
+#footer {
+    padding: 15px 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
