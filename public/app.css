@@ -26,6 +26,11 @@
     background-color: turquoise;
 }
 
+.card,
+.card > img {
+    border-radius: 0;
+}
+
 #footer {
     padding: 20px;
     background-color: black;
