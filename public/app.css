@@ -33,6 +33,10 @@
     border-radius: 0;
 }
 
+.card:hover {
+    border: 3px solid black;
+}
+
 #footer {
     padding: 20px;
     background-color: black;
