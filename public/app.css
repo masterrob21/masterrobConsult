@@ -37,6 +37,13 @@
     border: 3px solid blue;
 }
 
+.comp_service {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: blue;
+}
+
 #footer {
     padding: 20px;
     background-color: black;

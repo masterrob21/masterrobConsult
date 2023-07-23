@@ -10,6 +10,7 @@
 </article>
 
 <div class="row mt-3">
+    <h2 class="comp_service">what we do</h2>
     <div class="col-sm-12 col-md-4 mb-3">
         <div class="card">
             <img src="/images/it-service.jpg" class="card-img-top" alt="Image for I.T services">
