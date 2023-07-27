@@ -47,4 +47,8 @@
 
     </div>
 </div>
+
+<section class="article">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia ipsam, perspiciatis alias eligendi, sunt temporibus dignissimos ut accusantium sit saepe dolorum quidem qui corrupti incidunt cupiditate, ea amet tempora.</p>
+</section>
 @endsection
