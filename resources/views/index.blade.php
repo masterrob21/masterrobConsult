@@ -7,6 +7,7 @@
 @section('content')
 <article class="article article_bg">
     <h2>We give you value for money</h2>
+    <hr>
 </article>
 
 <div class="container">
@@ -48,7 +49,8 @@
     </div>
 </div>
 
-<section class="article">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia ipsam, perspiciatis alias eligendi, sunt temporibus dignissimos ut accusantium sit saepe dolorum quidem qui corrupti incidunt cupiditate, ea amet tempora.</p>
+<section class="article article_secondary">
+    <h4>Lorem ih4sum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia ipsam, perspiciatis alias eligendi, sunt temporibus dig</h4>
+    <hr>
 </section>
 @endsection

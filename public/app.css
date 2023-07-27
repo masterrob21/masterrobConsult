@@ -1,3 +1,9 @@
+hr {
+    border: 3px solid blue;
+    width: 10%;
+    margin: 15px auto 5px;
+}
+
 .comp_logo {
     height: 40px;
     width: 40px;
@@ -29,7 +35,8 @@
 }
 
 .article_secondary {
-    background-color: aquamarine;
+    background-color: black;
+    color: white;
 }
 
 .card {
