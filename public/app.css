@@ -37,6 +37,7 @@ hr {
 .article_secondary {
     background-color: black;
     color: white;
+    opacity: 0.8;
 }
 
 .card {
