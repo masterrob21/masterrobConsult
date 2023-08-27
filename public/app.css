@@ -1,3 +1,6 @@
+body {
+    background-color: lightgray;
+}
 hr {
     border: 3px solid blue;
     width: 10%;
@@ -75,6 +78,13 @@ hr {
     .nav-item a:hover {
         border-bottom: 0;
     }
+}
+
+.banner_container {
+    padding: 20px;
+    text-align: center;
+    background-image: url(/images/banner.jpg);
+    opacity: 0.8;
 }
 
 #footer {

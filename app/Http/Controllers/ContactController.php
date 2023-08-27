@@ -8,6 +8,6 @@ class ContactController extends Controller
 {
     public function show(Request $request)
     {
-        return view('/contact');
+        return view('contact');
     }
 }
