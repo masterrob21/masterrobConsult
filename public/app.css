@@ -47,6 +47,10 @@ hr {
     height: 100%;
 }
 
+.card-title {
+    color: blue;
+}
+
 .card,
 .card > img {
     border-radius: 0;
