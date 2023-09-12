@@ -1,7 +1,13 @@
 @extends('layouts.app')
 
 @section('banner')
-<img src="/images/pg-banner.jpg" class="bg_banner" alt="This is a banner image">
+<div class="bg_banner">
+    <h1 class="banner_header">Welcome to <br>
+        MasterRob Business Consult
+    </h1>
+    <p class="banner_text">We deliver affordable and convenient services.</p>
+</div>
+{{-- <img src="/images/pg-banner.jpg" class="bg_banner" alt="This is a banner image"> --}}
 @endsection
 
 @section('content')
