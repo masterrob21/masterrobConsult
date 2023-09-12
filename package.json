@@ -18,5 +18,8 @@
     "test": "tests"
   },
   "author": "masterrob",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
