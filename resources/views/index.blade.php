@@ -25,7 +25,7 @@
                 <div class="card-body">
                     <h5 class="card-title">I.C.T SERVICES</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">LEARN MORE</a>
+                    <a href="#" class="btn btn-primary link_arrow">LEARN MORE</a>
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
                 <div class="card-body">
                     <h5 class="card-title">BUSINESS REGISTRATION</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">LEARN MORE</a>
+                    <a href="#" class="btn btn-primary link_arrow">LEARN MORE</a>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
                 <div class="card-body">
                     <h5 class="card-title">BOOK-KEEPING SERVICE</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">LEARN MORE</a>
+                    <a href="#" class="btn btn-primary link_arrow">LEARN MORE</a>
                 </div>
             </div>
         </div>

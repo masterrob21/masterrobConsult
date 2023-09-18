@@ -77,6 +77,15 @@ hr {
 .card > img {
     border-radius: 0;
 }
+.link_arrow::after {
+    content: "-->";
+    margin-left: 2px;
+    transition: margin 0.2s;
+}
+
+.link_arrow:hover::after {
+    margin-left: 6px;
+}
 
 .card:hover {
     border: 3px solid blue;
