@@ -116,10 +116,10 @@ hr {
 }
 
 .banner_container {
-    padding: 20px;
-    text-align: center;
+    padding: 30px 80px;
+    color: white;
+    font-weight: 800;
     background-image: url(/images/banner.jpg);
-    opacity: 0.8;
 }
 
 #footer {
