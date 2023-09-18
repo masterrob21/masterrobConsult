@@ -33,6 +33,7 @@ hr {
 
 .banner_text {
     font-size: 2rem;
+    font-style: italic;
 }
 
 @media screen and (max-width: 576px) {

@@ -2,10 +2,10 @@
 
 @section('banner')
 <div class="bg_banner">
-    <h1 class="banner_header">Welcome to <br>
+    <h1 class="banner_header animate__animated animate__bounceInLeft animate__slower ">Welcome to <br>
         MasterRob Business Consult
     </h1>
-    <p class="banner_text">We deliver affordable and convenient services.</p>
+    <p class="banner_text animate__animated animate__backInUp animate__delay-2s">We deliver affordable and convenient services.</p>
 </div>
 {{-- <img src="/images/pg-banner.jpg" class="bg_banner" alt="This is a banner image"> --}}
 @endsection
