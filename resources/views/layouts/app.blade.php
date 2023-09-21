@@ -14,7 +14,7 @@
   <!-- Styles -->
   
 
-  @vite(['resources/js/app.js', 'resources/css/app.css'])
+  @vite(['resources/css/app.css'])
   <link rel="stylesheet" href="/app.css">
   @yield('style')
 
@@ -32,6 +32,21 @@
           <ul class="navbar-nav me-auto mb-2 mx-auto">
             <li class="nav-item">
               <a class="nav-link" href="/">Home</a>
+            </li>
+             <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Accounting</a></li>
+            <li><hr class="dropdwon-divider"></li>
+            <li><a class="dropdown-item" href="#">I.T Services</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Company Formation</a></li>
+          </ul>
+        </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/contact">Contact us</a>
@@ -54,7 +69,8 @@
     </div>
   </footer>
   <!-- script -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> --}}
+  @vite(['resources/js/app.js'])
 
 </body>
 
