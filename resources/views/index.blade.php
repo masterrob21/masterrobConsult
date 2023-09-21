@@ -13,7 +13,7 @@
 @section('content')
 <article class="article article_bg">
     <h2>We give you value for money</h2>
-    <hr>
+    <hr class="hr_divider">
 </article>
 
 <div class="container">
@@ -57,6 +57,6 @@
 
 <section class="article article_secondary">
     <h4>Lorem ih4sum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia ipsam, perspiciatis alias eligendi, sunt temporibus dig</h4>
-    <hr>
+    <hr class="hr_divider">
 </section>
 @endsection
