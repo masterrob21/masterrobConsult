@@ -12,6 +12,10 @@ body {
     width: 40px;
 }
 
+.comp_logo1 {
+    height: 100px;
+    width: 100px;
+}
 .comp_name {
     color: rgb(8, 8, 181);
     font-weight: 600;
@@ -77,6 +81,10 @@ body {
 .card > img {
     border-radius: 0;
 }
+
+.card-text {
+    text-align: justify;
+}
 .link_arrow::after {
     content: "-->";
     margin-left: 2px;
@@ -123,10 +131,62 @@ body {
     background-image: url(/images/banner.jpg);
 }
 
-#footer {
-    padding: 20px;
-    background-color: black;
+.comp_container {
+    padding: 2rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.comp_name_footer {
+    margin-left: 10px;
+    padding-top: 25px;
+}
+
+.border_divider {
+    border-right: 2px solid white;
+    margin: 10px 0;
+    height: 80%;
+}
+
+.p_footer {
+    font-size: 1.1rem;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+    .comp_container {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .border_divider {
+        border-right: 0;
+        border-bottom: 2px solid white;
+        margin: 0 25px 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .comp_name_footer {
+        padding-top: 5px;
+    }
+}
+
+.ul_footer {
+    list-style-type: none;
+}
+
+.ul_footer li a {
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: turquoise;
     text-align: center;
     color: white;
-    margin-bottom: 5px;
+    padding-top: 10px;
 }

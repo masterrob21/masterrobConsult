@@ -24,7 +24,7 @@
   <div id="container">
     <nav class="navbar navbar-expand-md bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="/logo.png" class="comp_logo" alt="company logo"> <span class="comp_name">MASTERROB</span></a>
+        <a class="navbar-brand" href="/"><img src="/logo.png" class="comp_logo" alt="company logo"> <span class="comp_name">MASTERROB</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -63,13 +63,42 @@
     </main>
 
   </div>
-  <footer id="footer">
-    <div>
-      <p>This is the footer of the website.</p>
+  <footer class="container-fluid footer">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 ">
+        <div class="border_divider">
+          <div class="comp_container">
+            <img src="/logo.png" class="comp_logo1" alt="company logo"><span class="comp_name_footer">MasterRob Business Consult</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3 ">
+        <div class="border_divider">
+          <p class="p_footer">
+            Kalabule Junction, <br>
+            Ngleshie Amanfrom. <br>
+            
+          </p>
+          <p>Tel: +233203210841</p>
+          <p></p>
+          
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div>
+          <ul class="ul_footer">
+            <li><a class="link_item" href="/">Home</a></li>
+            <li><a href="/services/it-service">I.T service</a></li>
+            <li><a href="/services/accounting">Accounting</a></li>
+            <li><a href="/services/company-formation">Company Formation</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </footer>
   <!-- script -->
-  {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> --}}
+  
   @vite(['resources/js/app.js'])
 
 </body>
