@@ -49,6 +49,15 @@ body {
     }
 }
 
+.bg__black {
+    background-color: black;
+    color: white;
+}
+
+.bg__secondary {
+    background-color: turquoise;
+}
+
 #container {
     height: 100%;
 }
