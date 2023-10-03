@@ -34,17 +34,15 @@
               <a class="nav-link" href="/">Home</a>
             </li>
              <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Services
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Accounting</a></li>
-            <li><hr class="dropdwon-divider"></li>
-            <li><a class="dropdown-item" href="#">I.T Services</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Company Formation</a></li>
-          </ul>
-        </li>
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Accounting</a></li>
+                <li><a class="dropdown-item" href="#">I.T Services</a></li>
+                <li><a class="dropdown-item" href="#">Company Formation</a></li>
+              </ul>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About us</a>
             </li>
